@@ -1,0 +1,76 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Franklin Gothic Book";
+}
+
+.square {
+    width: 30%;
+    /* background-color: purple; */
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: background 300ms;
+    --webkit-transition: background 300ms;
+    --moz-transition: background 300ms;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin: 0;
+    background-color: lightseagreen;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 20px 0;
+}
+
+#message {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: lightseagreen;
+    display: inline-block;
+    width: 20%;
+}
+#guess {
+    display: block;
+    font-size: 200%;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+    background: lightseagreen;
+    color: white; 
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: lightseagreen;
+    font-size: inherit;
+    letter-spacing: 1px;
+    transition: all 200ms;
+    --webkit-transition: all 200ms;
+    --moz-transition: all 200ms;
+    outline: none;
+}
+
+button:hover {
+    background: lightseagreen;
+    color: white; 
+}
